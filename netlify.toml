@@ -6,6 +6,12 @@
   to = "https://plaros.com/blog/:splat"
   status = 200
   force = true
+ 
+[[redirects]] 
+  from = "/blogs"
+  to = "https://plaros.com/blogs"
+  status = 200
+  force = true
 
 [functions]
   directory = "netlify/functions"
