@@ -1,21 +1,11 @@
-﻿[build]
-functions
-=
-netlify/functions
+[build]
+  functions = "netlify/functions"
+
 [[redirects]]
-from
-=
-/blog/*
-to
-=
-https://plaros.com/blog/:splat
-status
-=
-200
-force
-=
-true
+  from = "/blog/*"
+  to = "https://plaros.com/blog/:splat"
+  status = 200
+  force = true
+
 [functions]
-directory
-=
-netlify/functions
+  directory = "netlify/functions"
