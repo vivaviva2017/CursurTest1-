@@ -2,7 +2,7 @@ exports.handler = async function(event, context) {
   const path = event.path;
   
   // Check if the path starts with /blog/
-  if (path.startsWith('/gloggg/')) {
+  if (path.startsWith('/blog/')) {
     // Extract the part after /blog/
     const splat = path.substring(6); // Remove '/blog/' prefix
     
